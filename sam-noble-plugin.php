@@ -73,3 +73,12 @@ function run_sam_noble_plugin() {
 
 }
 run_sam_noble_plugin();
+
+
+/**
+ * Include the files that deal with custom WordPress structures such
+ * as post types and taxonomies.
+ *
+ * @since    1.1.0
+ */
+require_once plugin_dir_path( __FILE__ ) . '\\structures\\sam-noble-structures.php';

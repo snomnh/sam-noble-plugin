@@ -81,4 +81,4 @@ run_sam_noble_plugin();
  *
  * @since    1.1.0
  */
-require_once plugin_dir_path( __FILE__ ) . '\\structures\\sam-noble-structures.php';
+require_once plugin_dir_path( __FILE__ ) . 'structures/sam-noble-structures.php';
